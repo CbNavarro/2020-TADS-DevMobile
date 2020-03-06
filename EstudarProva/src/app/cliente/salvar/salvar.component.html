@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<body>
+
+    <label>Peso <input ngmodel="peso" /> kg</label><br />
+    <label>Altura <input ngmodel="altura" /> Cm</label><br />
+    <div id="resultado">
+        <button type="button" (click)="calcularImc()">Calcular</button>
+        <hr />
+    </div>
+    <script src="https://code.angularjs.org/1.3.5/angular.min.js"></script>
+</body>
+
+</html>

@@ -1,14 +1,10 @@
 import { NgModule } from "@angular/core";
-import { SalvarComponente } from './cliente-salvar/salvar.component';
+import { SalvarComponent } from './salvar/salvar.component';
 
 @NgModule({
-  declarations: [
-    SalvarComponente
-  ],
-  imports: [
-    SalvarComponente
-  ]
+    declarations: [SalvarComponent],
+    imports: [],
+    exports: [SalvarComponent]
 })
-export class ClienteModule {
-
+export class ClienteModule{
 }
